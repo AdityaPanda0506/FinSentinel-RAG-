@@ -1,0 +1,28 @@
+# FinSentinel — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Ingestion ─────────────────────────────────────────────
+yfinance>=0.2.40
+praw>=7.7.1
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# ── NLP (week 2) ──────────────────────────────────────────
+transformers>=4.40.0
+torch>=2.2.0
+spacy>=3.7.0
+
+# ── ML & Feature Engineering (week 3) ────────────────────
+scikit-learn>=1.4.0
+xgboost>=2.0.0
+shap>=0.45.0
+backtesting>=0.3.3
+pandas-ta>=0.3.14b      # technical indicators (RSI, MACD)
+
+# ── Data & Storage ────────────────────────────────────────
+pandas>=2.2.0
+numpy>=1.26.0
+
+# ── Dashboard (week 4) ────────────────────────────────────
+streamlit>=1.35.0
+plotly>=5.22.0
