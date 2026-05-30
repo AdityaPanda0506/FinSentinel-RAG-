@@ -1,30 +1,21 @@
-# ── Ingestion ─────────────────────────────
-yfinance==0.2.58
-praw==7.8.1
-requests==2.32.3
-python-dotenv==1.0.1
+yfinance
+praw
+requests
+python-dotenv
 
-# ── NLP ───────────────────────────────────
-transformers==4.51.3
-torch>=2.2.0
-spacy==3.8.5
+transformers
+torch
+spacy
 
-# ── ML ────────────────────────────────────
-scikit-learn==1.5.2
-xgboost==2.1.4
+scikit-learn
+xgboost
+shap
 
-# SHAP compatibility
-shap==0.46.0
-numba==0.60.0
-llvmlite==0.43.0
+backtesting
+pandas-ta
 
-backtesting==0.6.4
-pandas-ta==0.3.14b0
+pandas
+numpy
 
-# ── Data ──────────────────────────────────
-pandas==2.2.3
-numpy==1.26.4
-
-# ── Dashboard ─────────────────────────────
-streamlit==1.35.0
-plotly==5.24.1
+streamlit
+plotly
