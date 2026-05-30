@@ -323,73 +323,6 @@ NewsAPI free tier: 100 requests/day, 30-day history. Upgrading to a paid tier wo
 
 ---
 
-## 🗺️ Roadmap
-
-- [ ] Real-time streaming pipeline (Alpaca WebSocket)
-- [ ] Earnings calendar as hard feature
-- [ ] Short-selling in backtest strategy
-- [ ] Indian market support (NSE tickers `.NS`)
-- [ ] GPT-4 reasoning layer for natural language explanations
-- [ ] Portfolio optimisation (signal confidence → position sizing)
-- [ ] GPU-accelerated FinBERT inference
-- [ ] Sector rotation overlay
-
----
-
-## 💼 Interview Talking Points
-
-**On 54% accuracy:**
-*"Financial ML models operate under the efficient market hypothesis — publicly available information is rapidly priced in. 54% on a 3-class problem where random baseline is 33% represents statistically meaningful edge. More importantly the model correctly identifies HOLD on most uncertain days — avoiding bad trades is as valuable as making good ones."*
-
-**On negative Sharpe ratio:**
-*"The backtest period 2022–2024 was a strong bull market. A conservative signal model that sits in cash on uncertain days will underperform buy-and-hold in a trending bull market by design. The same conservatism would outperform significantly in a bear market or high-volatility regime like 2022."*
-
-**On the sentiment data gap:**
-*"I identified through coverage analysis that training sentiment was concentrated pre-2021 while the test period was 2022–2024 — a classic temporal distribution shift. I documented this as a research finding and built a daily NewsAPI pipeline to progressively close the gap. This kind of honest diagnosis is more valuable in production than inflated metrics from leaky validation."*
-
-**On walk-forward validation:**
-*"Every serious quantitative research paper — from Renaissance Technologies to academic finance journals — uses temporal validation. Random splits on financial time series create subtle forms of lookahead bias that make metrics look 10–20% better than real-world performance."*
-
----
-
-## 📸 How to Take Screenshots for the README
-
-Once your dashboard is running at `http://localhost:8501`:
-
-**1. Create the docs folder:**
-```bash
-mkdir docs\screenshots
-```
-
-**2. Take screenshots of each page:**
-
-| What to capture | How |
-|-----------------|-----|
-| `01_overview.png` | Overview page — full screen showing heatmap |
-| `02_signals.png` | Live Signals page — signal table + reasoning cards |
-| `03_deepdive.png` | Ticker Deep Dive — select AAPL, show price chart |
-| `04_backtest.png` | Backtest Results — equity curve chart |
-| `05_shap.png` | Explainability — SHAP global importance chart |
-| `06_shap_aapl.png` | Explainability — AAPL waterfall chart |
-
-**3. Add to README:**
-
-Replace the screenshots table at the top of this file with:
-```markdown
-![Overview](docs/screenshots/01_overview.png)
-![Signals](docs/screenshots/02_signals.png)
-![Deep Dive](docs/screenshots/03_deepdive.png)
-![Backtest](docs/screenshots/04_backtest.png)
-![SHAP](docs/screenshots/05_shap.png)
-```
-
-**4. Use browser screenshot tools:**
-- Chrome: F12 → three dots → More Tools → Capture full size screenshot
-- Windows Snipping Tool: Win + Shift + S
-- Recommended width: 1440px for clean README display
-
----
-
 ## 📄 License
 
 MIT License — free to use, modify, and distribute with attribution.
@@ -401,16 +334,6 @@ MIT License — free to use, modify, and distribute with attribution.
 **Aditya**
 
 Built to demonstrate: NLP, time-series ML, quantitative finance, SHAP explainability, and production pipeline design.
-
----
-
-<div align="center">
-
-**⚠️ Disclaimer**
-
-*FinSentinel is built for educational and portfolio purposes only.*
-*Nothing in this project constitutes financial advice.*
-*Past backtest performance does not guarantee future results.*
 
 ---
 
