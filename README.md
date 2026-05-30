@@ -13,7 +13,7 @@
 [![SHAP](https://img.shields.io/badge/XAI-SHAP-F59E0B?style=for-the-badge)](https://shap.readthedocs.io)
 [![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)](LICENSE)
 
-[**Live Demo**](https://finsentinelrag.streamlit.app/) · [**Report Bug**](issues) · [**Features**](#features) · [**Setup**](#setup)
+[**Report Bug**](issues) · [**Features**](#features) · [**Setup**](#setup)
 
 ---
 
