@@ -32,17 +32,17 @@
 
 | Page | Screenshot |
 |------|-----------|
-| Overview — Sentiment Heatmap | `docs/screenshots/01_overview.png` |<img width="1777" height="862" alt="01_overview" src="https://github.com/user-attachments/assets/24d5f667-16be-4c12-8092-c73d144f0c3e" />
+| Overview — Sentiment Heatmap | `docs/screenshots/01_overview.png` |
+| Live Signals — Signal Feed | `docs/screenshots/02_signals.png` |
+| Ticker Deep Dive — AAPL | `docs/screenshots/03_deepdive.png` |
+| Backtest — Equity Curve | `docs/screenshots/04_backtest.png` |
+| Explainability — SHAP | `docs/screenshots/05_shap.png` |
 
-| Live Signals — Signal Feed | `docs/screenshots/02_signals.png` |<img width="1533" height="842" alt="02_signals" src="https://github.com/user-attachments/assets/bf99c9e5-9f0a-497f-a7fd-edad7f24d84e" />
-
-| Ticker Deep Dive — AAPL | `docs/screenshots/03_deepdive.png` |<img width="1526" height="818" alt="03_deepdive" src="https://github.com/user-attachments/assets/3f6d9181-4b79-4f27-98e0-a50d381d9ecd" />
-
-| Backtest — Equity Curve | `docs/screenshots/04_backtest.png` |<img width="1208" height="799" alt="04_backtest" src="https://github.com/user-attachments/assets/e90d58e7-6b2b-4610-a718-be452063dc47" />
-
-| Explainability — SHAP | `docs/screenshots/05_shap.png` |<img width="1481" height="881" alt="05_shap_summary" src="https://github.com/user-attachments/assets/cc1b6064-7b4e-4b5b-90e7-579e81538ff1" />
-
-
+<img width="1777" height="862" alt="01_overview" src="https://github.com/user-attachments/assets/24d5f667-16be-4c12-8092-c73d144f0c3e" />
+<img width="1533" height="842" alt="02_signals" src="https://github.com/user-attachments/assets/bf99c9e5-9f0a-497f-a7fd-edad7f24d84e" />
+<img width="1526" height="818" alt="03_deepdive" src="https://github.com/user-attachments/assets/3f6d9181-4b79-4f27-98e0-a50d381d9ecd" />
+<img width="1208" height="799" alt="04_backtest" src="https://github.com/user-attachments/assets/e90d58e7-6b2b-4610-a718-be452063dc47" />
+<img width="1481" height="881" alt="05_shap_summary" src="https://github.com/user-attachments/assets/cc1b6064-7b4e-4b5b-90e7-579e81538ff1" />
 
 ---
 
