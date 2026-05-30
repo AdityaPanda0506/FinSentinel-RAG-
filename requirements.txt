@@ -1,28 +1,30 @@
-# FinSentinel — Python dependencies
-# Install with: pip install -r requirements.txt
+# ── Ingestion ─────────────────────────────
+yfinance==0.2.58
+praw==7.8.1
+requests==2.32.3
+python-dotenv==1.0.1
 
-# ── Ingestion ─────────────────────────────────────────────
-yfinance>=0.2.40
-praw>=7.7.1
-requests>=2.31.0
-python-dotenv>=1.0.0
+# ── NLP ───────────────────────────────────
+transformers==4.51.3
+torch==2.6.0
+spacy==3.8.5
 
-# ── NLP (week 2) ──────────────────────────────────────────
-transformers>=4.40.0
-torch>=2.2.0
-spacy>=3.7.0
+# ── ML ────────────────────────────────────
+scikit-learn==1.5.2
+xgboost==2.1.4
 
-# ── ML & Feature Engineering (week 3) ────────────────────
-scikit-learn>=1.4.0
-xgboost>=2.0.0
-shap>=0.45.0
-backtesting>=0.3.3
-pandas-ta>=0.3.14b      # technical indicators (RSI, MACD)
+# SHAP compatibility
+shap==0.46.0
+numba==0.60.0
+llvmlite==0.43.0
 
-# ── Data & Storage ────────────────────────────────────────
-pandas>=2.2.0
-numpy>=1.26.0
+backtesting==0.6.4
+pandas-ta==0.3.14b0
 
-# ── Dashboard (week 4) ────────────────────────────────────
-streamlit>=1.35.0
-plotly>=5.22.0
+# ── Data ──────────────────────────────────
+pandas==2.2.3
+numpy==1.26.4
+
+# ── Dashboard ─────────────────────────────
+streamlit==1.35.0
+plotly==5.24.1
